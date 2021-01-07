@@ -172,6 +172,16 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   transform: none !important;
   left: calc(90px + 0.5rem) !important;
   margin: 0;
+  background-color: #343a40!important;
+}
+
+.sub-dropdown {
+  color: white;
+}
+
+.sub-dropdown:hover {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #343a40!important;
 }
 
 .sidebar .nav-item .dropdown-menu.dropup {
