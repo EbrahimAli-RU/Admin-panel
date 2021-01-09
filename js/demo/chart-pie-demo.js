@@ -14,3 +14,7 @@ var myPieChart = new Chart(ctx, {
     }],
   },
 });
+
+document.getElementById('submitButton').addEventListener('click', () => {
+  console.log('Hi bro')
+})
